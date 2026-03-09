@@ -1,0 +1,101 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Data files (too large for git) ───────────────────────────────────────────
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.pkl
+data/processed/*.parquet
+*.csv
+*.parquet
+
+# ── Model weights (large binaries) ───────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+*.bin
+outputs/models/
+
+# ── Outputs (generated — not source) ─────────────────────────────────────────
+# Uncomment the lines below if you don't want outputs tracked.
+# outputs/
+
+# Keep specific output folders tracked for portfolio showcase:
+# (delete the ! lines if you'd rather exclude everything)
+outputs/dashboard/
+outputs/evaluation/
+outputs/comparison/
+outputs/explainability/
+outputs/simulation/
+!outputs/.gitkeep
+
+# ── Jupyter notebooks checkpoints ────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Environment variables & secrets ──────────────────────────────────────────
+.env
+.env.*
+*.key
+secrets.yaml
+config/secrets.py
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+outputs/logs/
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ── Build / packaging ─────────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── PyTorch Geometric cache ───────────────────────────────────────────────────
+~/.cache/torch/
+~/.cache/pyg/
