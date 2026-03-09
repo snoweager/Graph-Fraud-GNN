@@ -1,0 +1,96 @@
+=======================================================
+  FRAUD EXPLANATION REPORT
+  Generated for top 10 flagged transactions
+=======================================================
+
+───────────────────────────────────────────────────────
+  Transaction : 102870
+  Fraud Score : 0.6994
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Model detected unusual pattern in transaction embedding (no single dominant rule trigger)
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 255882
+  Fraud Score : 0.6915
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Customer has a 19.1% historical fraud rate (397 fraud txns)
+    2. Device '31.0' linked to 3 prior fraud transactions
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 285670
+  Fraud Score : 0.6893
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Model detected unusual pattern in transaction embedding (no single dominant rule trigger)
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 285675
+  Fraud Score : 0.6893
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Model detected unusual pattern in transaction embedding (no single dominant rule trigger)
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 409135
+  Fraud Score : 0.6891
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Model detected unusual pattern in transaction embedding (no single dominant rule trigger)
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 437962
+  Fraud Score : 0.6871
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Customer has a 19.1% historical fraud rate (397 fraud txns)
+    2. Device '31.0' linked to 3 prior fraud transactions
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 356999
+  Fraud Score : 0.6868
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Customer has a 19.1% historical fraud rate (397 fraud txns)
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 356997
+  Fraud Score : 0.6868
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Customer has a 19.1% historical fraud rate (397 fraud txns)
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 61899
+  Fraud Score : 0.6849
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Device '31.0' linked to 3 prior fraud transactions
+───────────────────────────────────────────────────────
+
+───────────────────────────────────────────────────────
+  Transaction : 249489
+  Fraud Score : 0.6849
+  Verdict     : MEDIUM RISK — Recommend REVIEW
+
+  Why flagged:
+    1. Device '31.0' linked to 3 prior fraud transactions
+───────────────────────────────────────────────────────
