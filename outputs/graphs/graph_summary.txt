@@ -1,0 +1,15 @@
+HeteroData(
+  customer={ num_nodes=13553 },
+  transaction={ num_nodes=590540 },
+  device={ num_nodes=1787 },
+  email={ num_nodes=60 },
+  address={ num_nodes=332 },
+  (customer, makes, transaction)={ edge_index=[2, 590540] },
+  (device, used_in, transaction)={ edge_index=[2, 590540] },
+  (email, linked_to, transaction)={ edge_index=[2, 590540] },
+  (address, located_at, transaction)={ edge_index=[2, 590540] },
+  (transaction, rev_makes, customer)={ edge_index=[2, 590540] },
+  (transaction, rev_used_in, device)={ edge_index=[2, 590540] },
+  (transaction, rev_linked_to, email)={ edge_index=[2, 590540] },
+  (transaction, rev_located_at, address)={ edge_index=[2, 590540] }
+)
