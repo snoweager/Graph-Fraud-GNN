@@ -1,1 +1,85 @@
-
+{
+    "generated_at": "2026-03-09T12:12:55.663950",
+    "n_windows": 6,
+    "thresholds": {
+        "psi_stable": 0.1,
+        "psi_monitor": 0.25,
+        "kl_stable": 0.05,
+        "kl_monitor": 0.2
+    },
+    "windows": [
+        {
+            "window": 1,
+            "time_min": -1,
+            "time_max": -1,
+            "n_transactions": 98423,
+            "mean_fraud_score": 0.4506,
+            "psi": 0.0,
+            "psi_status": "STABLE",
+            "kl_divergence": 0.0,
+            "kl_status": "STABLE",
+            "action": "OK"
+        },
+        {
+            "window": 2,
+            "time_min": -1,
+            "time_max": 0,
+            "n_transactions": 98423,
+            "mean_fraud_score": 0.4492,
+            "psi": 0.0065,
+            "psi_status": "STABLE",
+            "kl_divergence": 0.0044,
+            "kl_status": "STABLE",
+            "action": "OK"
+        },
+        {
+            "window": 3,
+            "time_min": 0,
+            "time_max": 0,
+            "n_transactions": 98423,
+            "mean_fraud_score": 0.4462,
+            "psi": 0.0401,
+            "psi_status": "STABLE",
+            "kl_divergence": 0.0295,
+            "kl_status": "STABLE",
+            "action": "OK"
+        },
+        {
+            "window": 4,
+            "time_min": 0,
+            "time_max": 0,
+            "n_transactions": 98423,
+            "mean_fraud_score": 0.446,
+            "psi": 0.0438,
+            "psi_status": "STABLE",
+            "kl_divergence": 0.0335,
+            "kl_status": "STABLE",
+            "action": "OK"
+        },
+        {
+            "window": 5,
+            "time_min": 0,
+            "time_max": 1,
+            "n_transactions": 98423,
+            "mean_fraud_score": 0.447,
+            "psi": 0.0298,
+            "psi_status": "STABLE",
+            "kl_divergence": 0.0227,
+            "kl_status": "STABLE",
+            "action": "OK"
+        },
+        {
+            "window": 6,
+            "time_min": 1,
+            "time_max": 1,
+            "n_transactions": 98423,
+            "mean_fraud_score": 0.4471,
+            "psi": 0.027,
+            "psi_status": "STABLE",
+            "kl_divergence": 0.0196,
+            "kl_status": "STABLE",
+            "action": "OK"
+        }
+    ],
+    "recommendation": "OK"
+}
