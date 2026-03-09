@@ -1,0 +1,109 @@
+{
+    "generated_at": "2026-03-09T12:12:57.656087",
+    "performance": {
+        "rule_engine": {
+            "model": "Rule-Based Engine",
+            "accuracy": 0.27362414061706236,
+            "precision": 0.03400056153998918,
+            "recall": 0.7208536998499734,
+            "f1_score": 0.0649381790279546,
+            "roc_auc": 0.5178306435058658,
+            "false_positive_rate": 0.7425918224458962,
+            "fraud_capture_rate": 0.7208536998499734,
+            "tp": 14895,
+            "fp": 423186,
+            "tn": 146691,
+            "fn": 5768,
+            "cost_fp": 4231860.0,
+            "cost_fn": 865200.0,
+            "total_cost": 5097060.0,
+            "confusion_matrix": [
+                [
+                    146691,
+                    423186
+                ],
+                [
+                    5768,
+                    14895
+                ]
+            ]
+        },
+        "gnn": {
+            "model": "Heterogeneous GNN",
+            "accuracy": 0.822945101093914,
+            "precision": 0.06903991370010787,
+            "recall": 0.3252189904660504,
+            "f1_score": 0.11390023559721352,
+            "roc_auc": 0.6211899018224615,
+            "false_positive_rate": 0.15900799646239452,
+            "fraud_capture_rate": 0.3252189904660504,
+            "tp": 6720,
+            "fp": 90615,
+            "tn": 479262,
+            "fn": 13943,
+            "cost_fp": 906150.0,
+            "cost_fn": 2091450.0,
+            "total_cost": 2997600.0,
+            "confusion_matrix": [
+                [
+                    479262,
+                    90615
+                ],
+                [
+                    13943,
+                    6720
+                ]
+            ]
+        }
+    },
+    "improvements": {
+        "fp_rule": 423186,
+        "fp_gnn": 90615,
+        "fp_reduction": 332571,
+        "fp_reduction_pct": 78.59,
+        "fcr_rule": 0.7209,
+        "fcr_gnn": 0.3252,
+        "fraud_capture_improvement": -54.88,
+        "cost_saving": 2099460.0,
+        "cost_saving_pct": 41.19
+    },
+    "adaptability_test": {
+        "n_transactions": 500,
+        "n_fraud": 16,
+        "rule_engine": {
+            "precision": 0.020594965675057208,
+            "recall": 0.5625,
+            "f1": 0.039735099337748346,
+            "roc_auc": 0.26084710743801653
+        },
+        "gnn": {
+            "precision": 0.032,
+            "recall": 1.0,
+            "f1": 0.06201550387596899,
+            "roc_auc": 0.5183367768595041
+        },
+        "winner": "GNN",
+        "description": "High-value transactions from previously clean devices"
+    },
+    "cold_start_test": {
+        "n_transactions": 440,
+        "n_fraud": 12,
+        "rule_engine": {
+            "precision": 0.05625,
+            "recall": 0.75,
+            "f1": 0.10465116279069768,
+            "roc_auc": 0.6950934579439252,
+            "fp_rate": 0.352803738317757
+        },
+        "gnn": {
+            "precision": 0.02727272727272727,
+            "recall": 1.0,
+            "f1": 0.05309734513274336,
+            "roc_auc": 0.430101246105919,
+            "fp_rate": 1.0
+        },
+        "winner": "Rule Engine",
+        "description": "Fraud from devices seen only once (cold-start attack)"
+    },
+    "overall_winner": "GNN"
+}
